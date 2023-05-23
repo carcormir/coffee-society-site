@@ -1,0 +1,181 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  height: 90vh;
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+
+
+.wrapper {
+  text-align: center;
+}
+
+.page-header {
+  background: black;
+  position: relative;
+  background-size: cover;
+  padding-bottom: 200px;
+  z-index: -2;
+}
+
+.custom-placeholder::placeholder {
+  color: white;
+}
+
+.img-logo {
+  margin-top: 0px;
+  width: 400px;
+}
+
+.search-social-col {
+  padding-right: 8px;
+}
+
+.card-section {
+  position: relative;
+  bottom: 180px;
+}
+
+.card-block {
+  margin-top: 40px;
+  padding: 80px;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.slider {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  bottom: 180px;
+  margin: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.slider-container {}
+
+.slider-image {
+  object-fit: cover;
+  width: 100%;
+  height: 650px;
+  padding-bottom: 20px;
+  /* margin-bottom: -100px; */
+  aspect-ratio: 16/9;
+}
+
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousels-container {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+}
+
+.main-carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+.second-carousel {
+  position: relative;
+  width: 850px;
+  height: 200px;
+  left: -150px;
+  top: 490px;
+}
+
+.carousel-item .col,
+.carousel-item .col-sm,
+.carousel-item .col-md {
+  position: relative;
+  margin-top: -40px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.custom-carousel-controls {
+  position: absolute;
+  top: 104%;
+}
+
+.custom-carousel-controls .carousel-control-prev {}
+
+.static-caption {
+  position: static !important;
+}
+
+.second-carousel-item {
+  width: 850px;
+  height: 200px;
+  padding: 0px;
+}
+
+.caption-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 850px;
+  margin: 0px;
+  padding: 50px;
+  text-align: left;
+}
+
+.controllers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 96%;
+  top: 600px;
+  /* left: 93%; */
+  /* transform: translateX(-50%); */
+}
